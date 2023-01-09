@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <div className="min-w-screen min-h-screen grid place-items-center">
-      <div className="w-11/12 max-w-[40   0px]">
+      <div className="w-11/12 max-w-[400px]">
         <p className="font-poppins text-center font-semibold text-text1">
           Log In To
         </p>
