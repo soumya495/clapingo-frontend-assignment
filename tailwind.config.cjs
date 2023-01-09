@@ -8,8 +8,13 @@ module.exports = {
       },
       colors: {
         primary: "#139980",
-        text: "#001F27",
+        text1: "#001F27",
+        text2: "#060606",
         cta: "#FF736A",
+      },
+      fontSize: {
+        md: "18px",
+        h1: "56px",
       },
     },
   },
