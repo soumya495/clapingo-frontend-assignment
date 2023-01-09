@@ -1,8 +1,16 @@
+import { Route, Routes } from "react-router-dom";
+// screens
+import Home from "./screens/Home";
+import Login from "./screens/Login";
+import Profile from "./screens/Profile";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-4xl font-poppins font-semibold">Hello World</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
+    </Routes>
   );
 };
 
