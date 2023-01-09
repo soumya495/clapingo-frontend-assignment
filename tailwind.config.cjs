@@ -12,6 +12,7 @@ module.exports = {
         text2: "#060606",
         cta: "#FF736A",
         statBg: "#3A3636",
+        cyann: "#00D2FF",
       },
       fontSize: {
         md: "18px",
