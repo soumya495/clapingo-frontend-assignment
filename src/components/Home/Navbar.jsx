@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link to="/login">
             <button
               style={{
-                background:
+                backgroundImage:
                   "linear-gradient(360deg, #52A49A -65.93%, #00CDAC 100%)",
               }}
               className="flex items-center space-x-1 px-6 py-[10px] rounded-full hover:drop-shadow-lg "
